@@ -88,3 +88,5 @@ Sajnos a feladat jellege miatt a hozzájárulás nem lehetséges
 ## License
 
 [The Unlicense](https://unlicense.org//)
+
+Based on [JedlikTsTemplate](https://github.com/nitslaszlo/JedlikTsTemplate) by [Laszlo Nits](https://github.com/nitslaszlo)
