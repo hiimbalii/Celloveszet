@@ -19,7 +19,7 @@ export default class Indulo {
   public get JoLovesek(): number[] {
     return this._sor
       .map((loves, index) => {
-        return { loves: loves, szam: index };
+        return { loves: loves, szam: index+1 };
       })
       .filter((x) => x.loves === "+")
       .map((x) => x.szam);
