@@ -1,7 +1,7 @@
 {
-    "name": "jedlik-typescript-vscode-template",
-    "version": "1.0.0",
-    "description": "Jedlik project template for using TypeScript, Jest and Node.js in VS Code.",
+    "name": "Celloveszet",
+    "version": "0.0.0-alpha",
+    "description": "Erettsegi feladatsor megoldas",
     "engines": {
         "node": "14.x"
     },
@@ -9,7 +9,7 @@
     "repository": {
         "private": true,
         "type": "git",
-        "url": "https://github.com/nitslaszlo/JedlikTsTemplate"
+        "url": "https://github.com/hiimbalii/Celloveszet"
     },
     "scripts": {
         "start": "node ./dist/App.js",
@@ -20,8 +20,8 @@
         "test": "jest || ECHO.",
         "dev": "nodemon"
     },
-    "author": "Nits László",
-    "license": "MIT",
+    "author": "Tóth Balázs",
+    "license": "The Unlicence",
     "dependencies": {
         "tslib": "^2.0.3"
     },
