@@ -22,10 +22,37 @@ npm install
 ```bash
 npm run start
 ```
+
 vagy
+
 ```bash
 nodemon
 ```
+
+## Feladat leírás
+
+A Sor Lövészegylet rendszeresen rendez versenyt az alábbi, igen egyszerű szabályokkal:
+
+- A lövések leadására korlátozott idő áll rendelkezésre, ezért a versenyzők eltérőszámú lövést adhatnak le.
+- A lövéseket sorszámozott korongokra kell leadni.
+- Találatnak számít, ha a korongot bárhol érinti a lövedék.
+  •A lövésekhez pontértéket rendelnek: amíg nem hibázik valaki, minden találata 20 pontot ér; de rontás esetén minden hiba 1 ponttal csökkenti – egészen nulláig – a későbbi lövésekkel szerezhető pontszámot. A lövés pontértéke nem lehet negatív.
+- Az végez előrébb a versenyben, aki több pontot szerez. A holtversenyt nem döntik el, mindegyik versenyző ugyanolyan helyezéssel végez, tehát mindenki helyezése megegyezik a nála több pontot sz
+  erzett versenyzők számánál eggyel nagyobb számmal.
+  A verseny.txt állományban versenyzőnként feljegyeztük a lövések eredményét. A fájl első sorában a versenyzők száma (`2`≤`v`≤`100`) szerepel. A következőv sorban legfeljebb l (4≤l≤40) karakter található, egy versenyző lövéseinek sorozata. Egy lövést egy karakter ír le, a – karakter a sikertelen, a + karakter a sikeres lövést rögzíti.
+  Például:
+  ```
+  5
+  +--+
+  -+-+++-
+  -+--+--
+  ++---
+  -++--
+  ```
+  A példában a 4. sor azt mutatja, hogy a 3-as rajtszámú lövőnek a 2. és az 5. lövése talált, tehát a versenyző csak két korongot talált el. Mivel elsőre hibázott, az első találat 19 pontot ér, aztán a két újabb hiba miatt már csak 17 pontot jelentett a második találat. Tehát összesen 36 pontot szerzett. Az 5. sorban szereplő, 4-es rajtszámú versenyző ugyancsak 2 találattal 40 pontot szerzett.
+  Készítsen programot, amely a verseny.txt állomány adatait felhasználva az alábbi kérdésekre válaszol! A program forráskódját mentse loves néven! (A program megírásakor a felhasználó által megadott adatok helyességét, érvényességét nem kell ellenőriznie, feltételezheti, hogy a rendelkezésre álló adatok a leírtaknak megfelelnek.)
+  A képernyőre írást igénylő részfeladatok eredményének megjelenítése előtt írja a képernyőre a feladat sorszámát (például: 3. feladat:), az 5. feladat esetén pedig a részfeladat betűjelét is! Ha a felhasználótól kér be adatot, jelenítse meg a képernyőn, hogy milyen értéket vár! Az ékezetmentes kiírás is elfogadott.
+
 ## Feladatok
 
 1. Olvassa be a `verseny.txt` állományban található adatokat, és annak felhasználásával oldja meg a következő feladatokat!
@@ -79,7 +106,6 @@ Függvény vége
 5c. feladat: A leghosszabb hibatlan sorozat hossza: 3
 5d. feladat: A versenyzo pontszama: 73
 ```
-
 
 ## Hozzájárulás
 
