@@ -85,7 +85,7 @@ Függvény vége
 
 6. Állítsa elő a `sorrend.txt` állományban a verseny végeredményét! A fájlban soronként tüntesse fel a versenyző helyezését, rajtszámát és pontszámát! A helyezés megadásakor a holtversenyt a bevezetőben megfogalmazott szabályok alapján az alábbi mintához hasonlóan kezelje! Az adatokat egy-egy tabulátorral (ASCII kódja a 9-es) válassza el egymástól! A lista legyen pontszám szerint csökkenő!
 
-### Példa input
+### Példa Sorrendek.txt
 
 ```
 1 2 73
