@@ -20,9 +20,12 @@ npm install
 ## Használat
 
 ```bash
-node run start
+npm run start
 ```
-
+vagy
+```bash
+nodemon
+```
 ## Feladatok
 
 1. Olvassa be a `verseny.txt` állományban található adatokat, és annak felhasználásával oldja meg a következő feladatokat!
@@ -77,9 +80,6 @@ Függvény vége
 5d. feladat: A versenyzo pontszama: 73
 ```
 
-## Tartalom
-
-_TODO_
 
 ## Hozzájárulás
 
