@@ -3,6 +3,10 @@
 A 2014.05.13. napon tartott emelt informatika érettségi megoldása TS-ben.
 Eredeti feladatsor angol nyelven (4.feladat: Shooting): [educatio.hu](http://dload.oktatas.educatio.hu/erettsegi/feladatok_2014tavasz_emelt/e_infma_14maj_fl.pdf)
 
+## Elérés
+
+A project kipróbálható [herokun](https://celloveszet.herokuapp.com)
+
 ## Használat
 
 ### Környezet
